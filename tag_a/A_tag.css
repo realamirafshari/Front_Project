@@ -1,0 +1,41 @@
+
+.btn{
+    background-color: rgb(255, 0, 0);
+    padding: 9px;
+    width: 90px;
+    color: aliceblue;
+    border: transparent;
+    border-radius: 10px;
+
+
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(168, 0, 0);
+    opacity: 12px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: rgb(255, 0, 0);
+    padding: 9px;
+    width: 90px;
+    color: aliceblue;
+    border: transparent;
+    border-radius: 10px;
+
+
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: rgb(168, 0, 0);
+    opacity: 12px;
+    cursor: pointer;
+}
+.a.btn{
+    text-decoration: none;
+
+}
+.btn:disabled{
+background-color: rgb(200, 200, 200);
+}
+
