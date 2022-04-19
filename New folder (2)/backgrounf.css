@@ -1,0 +1,55 @@
+body{
+    direction: rtl;
+    font-family: B yekan;
+    font-size: 18px;
+}
+
+.user{
+    border-color:rgb(191, 8, 8);;
+    width: 200px;
+    padding: 10px 20px 5px 0px;
+    border-radius: 10px;
+    font-family: B yekan;
+    text-align: center;
+}
+
+.user:focus{
+background-color: rgb(237, 237, 237);  
+}
+
+.lab{
+    padding: 80px;
+    color: palevioletred;
+}
+
+
+.h1{
+    color: darkred;
+    border: 50px 50px 50px 50px;
+    font-family: B titr;
+}
+
+.btn{
+    align-items: center;
+    background-color: rgb(191, 8, 8);
+    border-radius: 15px;
+    font-family: B titr;
+    padding: 10px;
+    width: 44px;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover
+{
+    background-color:rgb(255, 106, 106);
+    color: rgb(185, 184, 184);
+}
+b{
+    display: inline-block;
+}
+i{
+    position:absolute ;
+    right: 0;
+    padding: 10px 20px 5px 0px;
+}
+
