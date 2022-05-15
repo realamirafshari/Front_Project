@@ -1,0 +1,54 @@
+body{
+    direction: rtl;
+    font-family:B yekan,Berlin Sans FB;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #eff3f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: rgb(238, 238, 238);
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    
+}
+
+.cal{
+    width: 355px;
+ padding : 20px;
+ margin-bottom: 10px;
+ border-color: transparent;
+ background-color: rgb(232, 232, 232);
+
+}
+
+.btn{
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    display: grid;
+    gap: 10px;    
+}
+.button{
+    background-color: gainsboro;
+    border-style: none;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: rgb(146, 145, 145);
+}
+
+@media (min-width: 300px) {
+.btn { grid-template-columns: auto  ; 
+}}
+
+@media (min-width: 600px) {
+.btn { grid-template-columns: auto auto ;
+
+}}
+@media (min-width: 700px) {
+    .btn { grid-template-columns: auto auto auto ; 
+    }}
